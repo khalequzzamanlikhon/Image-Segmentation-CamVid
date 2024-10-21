@@ -264,17 +264,17 @@ The final combined loss can be formulated as:  $\[\text{Combined Loss} = \alpha 
 
   - **Loss and accuracy curve for Fully Convolutional Network**
   
-![loss-acc-fcn](./loss-acc-fcn.png)
+![loss-acc-fcn](/output_images/loss-acc-fcn.png)
 
  - **loss and accuracy curve for u-net**
 
-![loss-curve](./loss-acc-unet.png)
+![loss-curve](/output_images/loss-acc-unet.png)
 
  - **Loss and accuracy curves for deeplabv3+**
  
-![loss-acc-curve-deeplab](./loss-acc-deeplab.png)
+![loss-acc-curve-deeplab](/output_images/loss-acc-deeplab.png)
 
-**Results:**: 
+**Results:** 
 
 | Model                        | mIoU   |
 |------------------------------|--------|
@@ -285,17 +285,17 @@ The final combined loss can be formulated as:  $\[\text{Combined Loss} = \alpha 
 
 **output-diagram**
 
-- **an prediction on the test set for fcn**
+- **a prediction on the test set for fcn**
 
-![output-fcn](./output-fcn.png)
+![output-fcn](/output_images/output-fcn.png)
 
-- **an prediction on the test set for u-net**
+- **a prediction on the test set for u-net**
 
-![output-fcn](./output-unet.png)
+![output-fcn](/output_images/output-unet.png)
 
-- **an prediction on the test set for deeplabv3+**
+- **a prediction on the test set for deeplabv3+**
 
-![output-fcn](./output-deeplab.png)
+![output-fcn](/output_images/output-deeplab.png)
 
 
 # Future works
