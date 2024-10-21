@@ -261,7 +261,41 @@ The final combined loss can be formulated as:  $\[\text{Combined Loss} = \alpha 
 
 **Accuracy and Loss Curves**:
 
-**Results:**
+
+  - **Loss and accuracy curve for Fully Convolutional Network**
+  
+![loss-acc-fcn](./loss-acc-fcn.png)
+
+ - **loss and accuracy curve for u-net**
+
+![loss-curve](./loss-acc-unet.png)
+
+ - **Loss and accuracy curves for deeplabv3+**
+ 
+![loss-acc-curve-deeplab](./loss-acc-deeplab.png)
+
+**Results:**: 
+
+| Model                        | mIoU   |
+|------------------------------|--------|
+| Fully Convolutional Network  | 34.14% |
+| U-Net with Attention         | 45.72% |
+| DeepLabV3+                   | 38.13% |
+
+
+**output-diagram**
+
+- **an prediction on the test set for fcn**
+
+![output-fcn](./output-fcn.png)
+
+- **an prediction on the test set for u-net**
+
+![output-fcn](./output-unet.png)
+
+- **an prediction on the test set for deeplabv3+**
+
+![output-fcn](./output-deeplab.png)
 
 
 # Future works
