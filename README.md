@@ -230,7 +230,7 @@ I have used three different architectures. FCN, U-net, and deeplabv3+
 
   - Optimizers: Adam optimizer is used for all three models, with a learning rate of 1e-4 and weight decay:
   - weight_decay=1e-4 for FCN
-  -  batch_size=4; Used this small batch size due to lack of gpu
+  -  batch_size=4; Used this small batch size due to lack of GPU
   - weight_decay=1e-5 for UNet and DeepLabV3+
   - Learning Rate Scheduler: ReduceLROnPlateau reduces the learning rate by a factor of 0.1 if no improvement is seen for 3 epochs.
   - Early Stopping: Patience of 7 epochs with a delta threshold of 0.001.
@@ -300,12 +300,12 @@ The final combined loss can be formulated as:  $\[\text{Combined Loss} = \alpha 
 
 # Future works
 
-with these setups I didn't get a good average Intersection over Union (IoU) score from any of these three models. Althoug, deeplabv3+ should result more than 80%, here I got only __%.
-I will explore more specially with deeplabv3+ to get score as it is mentioned in [3]( https://arxiv.org/pdf/1802.02611). Moreover, I will apply post processing such as Conditional Random Fields (CRF)
-, Morphological Operations (e.g., dilation, erosion) etc. Moreover, I will experiment with different hyperparameters when I get available resourse (gpu).
+with these setups, I didn't get a good average Intersection over Union (IoU) score from any of these three models. Although deeplabv3+ should result in more than 80%, here I got only __%.
+I will explore more especially with deeplabv3+ to get a score as it is mentioned in [3]( https://arxiv.org/pdf/1802.02611). Moreover, I will apply post-processing such as Conditional Random Fields (CRF), Morphological Operations (e.g., dilation, erosion), etc. Moreover, I will experiment with different hyperparameters when I get available resources (GPU).
 
-
+**Note**: you can also find the code in [kaggle](https://www.kaggle.com/code/likhon148/semantic-segmentation-pytorch-scratch)
 ## References
 1. https://arxiv.org/pdf/1411.4038
 2. https://github.com/khalequzzamanlikhon/DeepLearning-ComputerVision/blob/master/08-Segmentation-Detection/01-Semantic-Segmentation.ipynb
 3. https://arxiv.org/pdf/1802.02611
+4. https://www.kaggle.com/code/likhon148/semantic-segmentation-pytorch-scratch
