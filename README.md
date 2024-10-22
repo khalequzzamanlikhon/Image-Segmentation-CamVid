@@ -2,7 +2,7 @@
 Semantic segmentation is one of the most important tasks in computer vision. For this project, I worked with the CamVid dataset for semantic segmentation. I step into this project inspired by [1]( https://arxiv.org/pdf/1411.4038) and what I read
 in this [2](https://github.com/khalequzzamanlikhon/DeepLearning-ComputerVision/blob/master/08-Segmentation-Detection/01-Semantic-Segmentation.ipynb) course. I applied knowledge of Fully Convolutional Networks from both references, keeping resnet50 as the background model followed by the custom encoder. Further, I also explored two more models
 and compared all of these three models. The other two models are- U-net architecture with attention mechanism and deeplabv3+ architecture explored in [3](https://arxiv.org/pdf/1802.02611). For the loss function, I considered the combined loss 
-function which used both dice and Jaccard loss. Applying suitable data augmentation techniques I got mIoU from the abovementioned architectures are 1 , 32, 3 percent respectively.
+function which used both dice and Jaccard loss. Applying suitable data augmentation techniques I got mIoU from the abovementioned architectures are 34.14%, 45.72%, and 38.13% percent respectively.
 
 
 # Dataset and Preprocessing 
