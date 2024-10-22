@@ -300,7 +300,7 @@ The final combined loss can be formulated as:  $\[\text{Combined Loss} = \alpha 
 
 # Future works
 
-with these setups, I didn't get a good average Intersection over Union (IoU) score from any of these three models. Although deeplabv3+ should result in more than 80%, here I got only __%.
+with these setups, I didn't get a good average Intersection over Union (IoU) score from any of these three models. Although deeplabv3+ should result in more than 80%, here I got only 38.13%.
 I will explore more especially with deeplabv3+ to get a score as it is mentioned in [3]( https://arxiv.org/pdf/1802.02611). Moreover, I will apply post-processing such as Conditional Random Fields (CRF), Morphological Operations (e.g., dilation, erosion), etc. Moreover, I will experiment with different hyperparameters when I get available resources (GPU).
 
 **Note**: you can also find the code in [kaggle](https://www.kaggle.com/code/likhon148/semantic-segmentation-pytorch-scratch)
